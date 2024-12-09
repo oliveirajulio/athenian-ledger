@@ -1,0 +1,204 @@
+.container {
+    display: flex;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: var(--color_1);
+}
+
+.main-header {
+    display: fixed;
+    width: 100vw;
+    height: 10vh;
+    background-color: var(--color_1);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
+
+
+}
+
+.ctn {
+    position: fixed;
+    top: 10vh;
+    left: 17vw;
+    display: flex;
+    margin: auto;
+    height: auto;
+    width: calc(100vw - 15vw);
+    gap:0.9vw;
+    flex-wrap: wrap;
+}
+
+.sidebar {
+    margin-left: 2vh;
+    margin-top: 2.5vh;
+    border-radius: 20px;
+    width: 15vw;
+    height: 85vh;
+    position: fixed;
+    top: 10vh;
+    left: 0;
+    background-color: rgba(52, 113, 173, 0.15);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+.income {
+    padding: 1vh;
+    padding-left: 1.5vw;
+    color: #f9f9f9;
+    background-color: rgba(52, 113, 173, 0.15);
+    margin-top: 2.5vh;
+    border-radius: 20px;
+    width: 11vw;
+    height: 12vh;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+.expense {
+    padding: 1vh;
+    padding-left: 1.5vw;
+    color: #f9f9f9;
+    background-color: rgba(52, 113, 173, 0.15);
+    margin-top: 2.5vh;
+    border-radius: 20px;
+    width: 11vw;
+    height: 12vh;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+.balance {
+    padding: 1vh;
+    padding-left: 1.5vw;
+    color: #f9f9f9;
+    background-color: rgba(52, 113, 173, 0.15);
+    margin-top: 2.5vh;
+    border-radius: 20px;
+    width: 11vw;
+    height: 12vh;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+.a1 {
+    padding: 1vh;
+    padding-left: 1.5vw;
+    color: #f9f9f9;
+    background-color: rgba(52, 113, 173, 0.15);
+    margin-top: 2.5vh;
+    border-radius: 20px;
+    width: 11vw;
+    height: 12vh;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
+}
+.a2 {
+    padding: 1vh;
+    padding-left: 1.5vw;
+    color: #f9f9f9;
+    background-color: rgba(52, 113, 173, 0.15);
+    margin-top: 2.5vh;
+    border-radius: 20px;
+    width: 11vw;
+    height: 12vh;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
+}
+.a3 {
+    padding: 1vh;
+    padding-left: 1.5vw;
+    color: #f9f9f9;
+    background-color: rgba(52, 113, 173, 0.15);
+    margin-top: 2.5vh;
+    border-radius: 20px;
+    width: 11vw;
+    height: 12vh;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+.a4 {
+    padding: 1vh;
+    padding-left: 1.5vw;
+    color: #f9f9f9;
+    background-color: rgba(52, 113, 173, 0.15);
+    margin-top: 2.5vh;
+    border-radius: 20px;
+    width: 11vw;
+    height: 12vh;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+.cross {
+    padding: 1vh;
+    padding-left: 1.5vw;
+    color: #f9f9f9;
+    background-color: rgba(52, 113, 173, 0.15);
+    margin-top: 0.5vh;
+    border-radius: 20px;
+    width: 12vw;
+    height: 40vh;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+.graphm {
+    padding: 1vh;
+    padding-left: 1.5vw;
+    color: #f9f9f9;
+    background-color: rgba(52, 113, 173, 0.15);
+    margin-top: 0.5vh;
+    border-radius: 20px;
+    width: 34vw;
+    height: 40vh;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+.income-entry {
+    padding: 1vh;
+    padding-left: 1.5vw;
+    color: #f9f9f9;
+    background-color: rgba(52, 113, 173, 0.15);
+    margin-top: 0.5vh;
+    border-radius: 20px;
+    width: 12vw;
+    height: 40vh;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+.invest {
+    padding: 1vh;
+    padding-left: 1.5vw;
+    color: #f9f9f9;
+    background-color: rgba(52, 113, 173, 0.15);
+    margin-top: 0.5vh;
+    border-radius: 20px;
+    width: 21.5vw;
+    height: 40vh;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+.exp-category {
+    padding: 1vh;
+    padding-left: 1.5vw;
+    color: #f9f9f9;
+    background-color: rgba(52, 113, 173, 0.15);
+    margin-top: 0.5vh;
+    border-radius: 20px;
+    width: 30vw;
+    height: 28vh;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+.exp-details {
+    padding: 1vh;
+    padding-left: 1.5vw;
+    color: #f9f9f9;
+    background-color: rgba(52, 113, 173, 0.15);
+    margin-top: 0.5vh;
+    border-radius: 20px;
+    width: 51vw;
+    height: 28vh;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+
+
+
+
+
+
