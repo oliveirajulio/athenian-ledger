@@ -45,7 +45,8 @@
 .income {
     padding: 1vh;
     padding-left: 1.5vw;
-    color: #f9f9f9;
+    padding-right: 1vw;
+    color: hsl(0, 0%, 98%);
     background-color: rgba(52, 113, 173, 0.15);
     margin-top: 2.5vh;
     border-radius: 20px;
@@ -53,10 +54,17 @@
     height: 12vh;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
 }
+
+.income p {
+    font-size: 18px;
+    margin-top: 3vh;
+    text-align:end
+}   
 
 .expense {
     padding: 1vh;
     padding-left: 1.5vw;
+    padding-right: 0.5vw;
     color: #f9f9f9;
     background-color: rgba(52, 113, 173, 0.15);
     margin-top: 2.5vh;
@@ -66,9 +74,15 @@
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
 }
 
+.expense p {
+    font-size: 18px;
+    margin-top: 3vh;
+    text-align:end
+}
 .balance {
     padding: 1vh;
     padding-left: 1.5vw;
+    padding-right: 1vw;
     color: #f9f9f9;
     background-color: rgba(52, 113, 173, 0.15);
     margin-top: 2.5vh;
@@ -77,6 +91,13 @@
     height: 12vh;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
 }
+
+.balance p {
+    font-size: 18px;
+    margin-top: 3vh;
+    text-align:end;
+    color: var(--color_2);
+}   
 
 .a1 {
     padding: 1vh;

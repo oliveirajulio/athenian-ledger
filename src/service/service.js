@@ -32,7 +32,7 @@ async function Data(filePath) {
       reader.readAsArrayBuffer(blob); // Usando readAsArrayBuffer para ler o arquivo
     });
   } catch (error) {
-    throw new Error("Erro ao buscar o arquivo Excel: " + error.message); // Se houver erro ao buscar o arquivo
+    throw new Error("Erro ao buscar o arquivo Excel: " + error.message) // Se houver erro ao buscar o arquivo
   }
 }
 
